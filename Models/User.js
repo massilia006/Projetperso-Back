@@ -8,4 +8,4 @@ const mongoose= require("mongoose");
     admin:{type:Boolean}
  })
   
- modules.exports=mongoose.model("user",UserSchema);
+ module.exports=mongoose.model("user",UserSchema);
